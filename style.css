@@ -1,77 +1,84 @@
+/* Font and Colors */
+
 body {
-    background: #EBEBEB;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #7d7d7d;
-    font-size: 15px;
-    line-height: 1.6em;
-    display: block;
-    margin: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgb(20, 20, 20);
+  background-color: rgb(230, 230, 230)
 }
 
-p {
-    text-align: justify;
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
 }
 
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
-    white-space: normal;
-    line-height: normal;
-    font-weight: normal;
-    font-size: medium;
-    font-style: normal;
-    text-align: start;
-    font-variant: normal;
+h1 {
+  font-size: 28px;
+  color: #FB5660;
 }
 
-.container {
-    width: 500px;
-    margin: 30px auto;
+h2 {
+  font-size: 20px;
+  color: black;
 }
 
-.card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
-
-.btn-red {
-    background-color: #DD5555;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
+h3 {
+  font-size: 17px;
+  color: black;
 }
 
 a {
-    color: #ccc;
-    text-decoration: none;
+  text-decoration: none;
+  color: rgb(180, 180, 180);
 }
-.text-center {
-    text-align: center;
+
+a:hover {
+  color: rgb(200, 200, 200);
+}
+
+/* Custom design with classes */
+
+.section-white {
+  background-color: white;
+  border-radius: 4px;
+  width: 700px;
+  margin: 10px auto;
+  padding: 50px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-#bands img {
-    width: 200px;
+.btn-red {
+  background-color: #FB5660;
+  padding: 15px 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
 }
 
-#bands {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.6em;
+.btn-red:hover {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .list-inline {
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
 }
 
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
 
